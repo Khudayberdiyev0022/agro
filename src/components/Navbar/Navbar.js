@@ -15,7 +15,7 @@ const navbarLinks = [
 function Navbar() {
     const [scroll, setScroll] = useState(false)
     const [clicked, setclicked] = useState(false)
-
+    console.log(scroll);
     useEffect(() => {
         const timer = setInterval(() => {
             if(window.scrollY > 500){
