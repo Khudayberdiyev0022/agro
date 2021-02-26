@@ -5,10 +5,10 @@ import {VscChromeClose, VscMenu} from 'react-icons/vsc'
 import img from '../../assets/img/agro.jpg'
 
 const navbarLinks = [
-    {path:'/', name:'МОИ ТОВАРЫ'},
-    {path:'/search', name:'Начат поиск'},
-    {path:'/contact', name:'СВЯЗ'},
-    {path:'/cLicked', name:'Избранний'},
+    {path:'/', name:'Мои товары'},
+    {path:'/search', name:'Начать поиск'},
+    {path:'/contact', name:'Связь'},
+    {path:'/cLicked', name:'Избранный'},
     {path:'/settings', name:'Настройки'},
 ]
 
